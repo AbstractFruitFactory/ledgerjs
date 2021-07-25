@@ -3,7 +3,7 @@
 import EventEmitter from "events";
 import { getDevices } from "@ledgerhq/hw-transport-node-hid-noevents";
 import { log } from "@ledgerhq/logs";
-import usb from "usb";
+import usb from "@aleworm/usb";
 import debounce from "lodash/debounce";
 
 export default (

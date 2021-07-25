@@ -26,14 +26,14 @@
   "module": "lib-es/TransportNodeHid.js",
   "license": "Apache-2.0",
   "dependencies": {
+    "@aleworm/usb": "AbstractFruitFactory/node-usb",
     "@ledgerhq/devices": "^5.51.1",
     "@ledgerhq/errors": "^5.50.0",
     "@ledgerhq/hw-transport": "^5.51.1",
     "@ledgerhq/hw-transport-node-hid-noevents": "^5.51.1",
     "@ledgerhq/logs": "^5.50.0",
     "lodash": "^4.17.21",
-    "node-hid": "2.1.1",
-    "usb": "^1.7.0"
+    "node-hid": "2.1.1"
   },
   "devDependencies": {
     "flow-bin": "^0.149.0"
